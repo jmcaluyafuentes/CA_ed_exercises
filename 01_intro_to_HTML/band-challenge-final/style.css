@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+}
+
+header {
+    background-color: #b5fff8;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+header nav ul li {
+    padding-left: 1.5em;
+    list-style: none;
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto 0;
+    gap: 1rem;
+    width: 70vw;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    width: 70vw;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
