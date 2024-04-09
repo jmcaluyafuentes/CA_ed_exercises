@@ -43,7 +43,7 @@ section {
     align-items: center;
     margin: 1rem auto 0;
     gap: 1rem;
-    width: 70vw;
+    width: 50vw;
     padding-bottom: 1rem;
     border-bottom: 1px solid gray;
 }
@@ -57,7 +57,7 @@ p {
 }
 
 img {
-    width: 70vw;
+    width: 50vw;
 }
 
 footer {
