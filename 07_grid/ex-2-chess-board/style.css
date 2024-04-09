@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    height: 50px;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: 50px;
+    border: 2px solid black;
+}
+
+.even div:nth-child(even) {
+    border: 1px solid black;
+    background: black;
+}
+
+.odd div:nth-child(odd) {
+    border: 1px solid black;
+    background: black;
+}
+
+
